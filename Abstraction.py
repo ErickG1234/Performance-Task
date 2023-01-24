@@ -1,18 +1,18 @@
 import math
 import random
 
-# appetizer =["Mozerella Sticks", "Risotto", "Spincach Dip"]
-# entree = ["Steak Tacos","Garlic Butter Salmon, Chicken Sandwich"]
-# desert = ["Chocolate Cake", "Banana Split", "Tart Cake"]
-menu = ["Mozerella Sticks", "Risotto", "Spincach Dip","Steak Tacos","Garlic Butter Salmon, Chicken Sandwich", "Chocolate Cake", "Banana Split", "Tart Cake"]
+appetizer =["Mozerella Sticks", "Risotto", "Spincach Dip"]
+entree = ["Steak Tacos","Garlic Butter Salmon, Chicken Sandwich"]
+desert = ["Chocolate Cake", "Banana Split", "Tart Cake"]
+customer = input("Welcome to our restaurant, would you like an appetizer? (yes/no)")
+pick1 = input(f"What appetizer would you like? {appetizer} ")
+pick2 = input(f"What entree would you like? {entree} ")
+pick3 = input(f"What desert would you like? {desert} ")
 
-customer = input(f"Welcome to our restaurant, what would you like to eat?  {menu}")
-        
-while True:
-  while customer not in menu:
-    print(customer)
-if customer 
+# if customer == "yes":
+#   print()
     
+
     
   
 
