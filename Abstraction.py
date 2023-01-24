@@ -1,14 +1,22 @@
 import math
 import random
 
-choice = input("Hello, where would you like to eat?")
-food_list = ["Chick-Fil-A", "Panera Bread", "Culvers", "McDonalds"]
-# idea 1
-#  Fast food options
-# Path - 1) Where would you like to go
-#  User picks a fast food place
-#  Here is what we reccomend from Place (*Shows 6 reccomended items)
-#  *User chooses items
+# appetizer =["Mozerella Sticks", "Risotto", "Spincach Dip"]
+# entree = ["Steak Tacos","Garlic Butter Salmon, Chicken Sandwich"]
+# desert = ["Chocolate Cake", "Banana Split", "Tart Cake"]
+menu = ["Mozerella Sticks", "Risotto", "Spincach Dip","Steak Tacos","Garlic Butter Salmon, Chicken Sandwich", "Chocolate Cake", "Banana Split", "Tart Cake"]
+
+customer = input(f"Welcome to our restaurant, what would you like to eat?  {menu}")
+        
+while True:
+  while customer not in menu:
+    print(customer)
+if customer 
+    
+    
+  
+
+
 
 # idea 2
 # restuarant simulation
